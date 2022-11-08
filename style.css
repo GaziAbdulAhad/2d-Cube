@@ -1,0 +1,30 @@
+.cube-container{
+    position: relative;
+    margin: 15% 0 0 40%;
+}
+
+
+.cube{
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    position: absolute;
+}
+
+.cube-top{
+    /* display: none; */
+    background: url('/1.jpg') no-repeat center center / cover;
+    transform: rotate(-45deg) skew(15deg, 15deg) ;
+}
+
+.cube-left{
+    /* display: none; */
+    background: url('/2.jpg') no-repeat center center / cover;
+    transform:  translate(-45%, 77%) rotate(15deg) skew(15deg, 15deg);
+}
+
+.cube-right{
+    /* display: none; */
+    background: url('/3.jpg') no-repeat center center / cover;
+    transform: translate(45%, 77%) rotate(-15deg) skew(-15deg, -15deg);
+}
