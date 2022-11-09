@@ -13,18 +13,18 @@
 
 .cube-top{
     /* display: none; */
-    background: url('/1.jpg') no-repeat center center / cover;
+    background: url('https://i.ytimg.com/vi/Cm3JtcXPrWE/maxresdefault.jpg') no-repeat center center / cover;
     transform: rotate(-45deg) skew(15deg, 15deg) ;
 }
 
 .cube-left{
     /* display: none; */
-    background: url('/2.jpg') no-repeat center center / cover;
+    background: url('https://mi5careers.co.uk/wp-content/uploads/2018/03/baby-photography.jpg') no-repeat center center / cover;
     transform:  translate(-45%, 77%) rotate(15deg) skew(15deg, 15deg);
 }
 
 .cube-right{
     /* display: none; */
-    background: url('/3.jpg') no-repeat center center / cover;
+    background: url('https://static.wixstatic.com/media/89e88a_771efa1a2c104767ae34c8ef0a7e4ba9~mv2.jpg/v1/fit/w_1045,h_790,q_73,usm_8.40_0.13_0.07/89e88a_771efa1a2c104767ae34c8ef0a7e4ba9~mv2.jpg') no-repeat center center / cover;
     transform: translate(45%, 77%) rotate(-15deg) skew(-15deg, -15deg);
 }
